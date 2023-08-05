@@ -1,0 +1,414 @@
+body {
+  overflow-x: hidden;
+}
+.nav-color {
+  background-color: #ffffff;
+}
+.navbar-brand {
+  margin-left: 127px;
+  font-size: 40px;
+  font-family: "Lora", serif;
+}
+nav.scrolled {
+  background: #383e56;
+}
+.lightText {
+  color: #ffffff;
+}
+.icon-navbar-brand {
+  font-family: "Lora", serif;
+  color: #76ba99;
+}
+.navbar-nav {
+  margin-left: 375px;
+}
+.nav-link {
+  font-size: 18px;
+  font-family: "Lora", serif;
+  margin-right: 26px;
+  color: #000000;
+}
+.nav-link:hover {
+  color: #76ba99;
+}
+.hero-section {
+  background-color: #eddfb3;
+}
+.motto-hero {
+  margin-left: 73px;
+  color: #76ba99;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 200px;
+}
+.desc-hero {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  margin-left: 73px;
+  margin-top: 40px;
+}
+.name-person {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  margin-left: 73px;
+  margin-top: 15px;
+}
+.btn-hero {
+  background-color: #76ba99;
+  border-radius: 20px;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 73px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+.btn-hero:hover {
+  background-color: #a09e9e;
+  color: #ffffff;
+}
+.fa-download {
+  margin-right: 8px;
+}
+.img-person {
+  margin-top: 140px;
+  margin-left: 40px;
+}
+.about {
+  background-color: #ffffff;
+}
+.img-about {
+  margin-top: 102px;
+  margin-left: 73px;
+  margin-bottom: 70px;
+}
+.title-about {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #76ba99;
+  margin-left: 110px;
+  margin-top: 140px;
+}
+.main-desc-about {
+  font-family: "Lora", serif;
+  font-size: 55px;
+  color: #000000;
+  margin-left: 110px;
+  margin-bottom: 0px;
+}
+.second-desc-about {
+  font-family: "Lora", serif;
+  font-size: 55px;
+  color: #000000;
+  margin-left: 110px;
+  margin-bottom: 30px;
+}
+.icon-name {
+  margin-left: 110px;
+}
+.label-name {
+  margin-left: 50px;
+  color: #a09e9e;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.desc-label-name {
+  margin-left: 50px;
+  font-family: "Lora", serif;
+  color: #000000;
+  font-size: 15px;
+}
+.desc-label {
+  font-family: "Lora", serif;
+  color: #000000;
+  font-size: 15px;
+}
+.icon-age {
+  margin-left: 50px;
+}
+.label-age {
+  margin-left: 0px;
+  color: #a09e9e;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.row-separator {
+  margin-top: 20px;
+}
+.skills {
+  background-color: #eddfb3;
+}
+.title-skills {
+  color: #76ba99;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-left: 73px;
+  margin-top: 50px;
+}
+.img-skills {
+  margin-top: 142px;
+  margin-left: 30px;
+}
+.desc-skills {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 49px;
+  margin-left: 73px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.fav-skills {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 49px;
+  margin-left: 73px;
+  margin-top: 0px;
+}
+.progress-skills {
+  margin-left: 73px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.label-progress {
+  color: #a09e9e;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.color-progress {
+  background-color: #ca955c;
+}
+.portfolio {
+  background-color: #ffffff;
+}
+.title-portfolio {
+  color: #76ba99;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin-left: 73px;
+  margin-top: 65px;
+}
+.desc-portfolio {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 48px;
+  margin-left: 73px;
+}
+.portfolio-items {
+  margin-left: 73px;
+  margin-bottom: 60px;
+  margin-top: 15px;
+}
+.img-items {
+  width: 500px;
+  height: 250px;
+}
+.text-items {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+/* css flip */
+.flip-box {
+  background-color: transparent;
+  width: 500px;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #ca955c;
+  color: white;
+  transform: rotateY(180deg);
+}
+.space-items {
+  margin-top: 20px;
+}
+
+.experiences {
+  background-color: #eddfb3;
+}
+.title-ex {
+  color: #76ba99;
+  font-family: "Poppins", sans-serif;
+  margin-top: 70px;
+  margin-left: 47%;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.desc-ex {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 45px;
+  margin-left: 36%;
+  margin-top: 15px;
+}
+.row-ex {
+  margin-left: 3%;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.loc-ex {
+  color: #76ba99;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.year-ex {
+  color: #a2b5bb;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.pos-ex {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.title-edu {
+  color: #76ba99;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 73px;
+}
+.desc-edu {
+  color: #000000;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  margin-left: 73px;
+  margin-top: 30px;
+}
+
+/* css edu */
+.vertical-point-progress {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  list-style-type: none;
+  /* counter-reset: none; */
+  margin: 0;
+  font-family: Poppins;
+}
+.vertical-point-progress li {
+  padding: 0 0 20px 50px;
+  position: relative;
+  margin: 0;
+}
+.vertical-point-progress li:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  /* counter-increment: none; */
+  border: 1px solid #adb9c7;
+  border-radius: 50%;
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  background: #adb9c7;
+}
+
+.vertical-point-progress li:before {
+  position: absolute;
+  left: 10.4px;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 0;
+  border: 2px solid #eef2f6;
+}
+
+.step-edu {
+  margin-left: 40px;
+}
+.school {
+  color: #76ba99;
+  font-family: "Lora", serif;
+  font-size: 15px;
+}
+.desc-school {
+  font-family: "Lora", serif;
+  color: #000000;
+  font-size: 24px;
+}
+.img-edu {
+  margin-top: 170px;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+.footer {
+  background-color: #041c32;
+}
+.brand-project {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 36px;
+  margin-left: 73px;
+  margin-top: 80px;
+}
+.second-brand {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  margin-left: 73px;
+  margin-top: 18px;
+}
+.icon-sosmed {
+  margin-left: 73px;
+}
+.icon-sosmed > a {
+  text-decoration: none;
+  padding: 1px;
+}
+.main-content-footer {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 37px;
+  text-align: right;
+  margin-top: 80px;
+}
+.second-content-footer {
+  color: #ffffff;
+  font-family: "Lora", serif;
+  font-size: 37px;
+  text-align: right;
+  margin-bottom: 80px;
+}

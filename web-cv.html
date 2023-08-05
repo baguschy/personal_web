@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web CV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <nav
+      id="scrollspy-navbar"
+      class="navbar fixed-top navbar-expand-lg nav-color"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand nav-text" href="#home"
+          >Bio<span class="icon-navbar-brand">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#menuAbout"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menuSkills">Sklis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menuPortfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menuExperience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menuEducation">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://blogbaguscs.blogspot.com/"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#scrollspy-navbar"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example bg-body-tertiary rounded-2"
+      tabindex="0"
+    >
+      <section class="hero-section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+              <p class="motto-hero">Get Every Single Solutions.</p>
+              <h1 class="desc-hero">I'm Web Developer</h1>
+              <h1 class="name-person">Bagus Cahyo Sulistiyo</h1>
+              <a
+                href=""
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                class="btn btn-hero"
+                ><i class="fa fa-light fa-download"></i> Download CV</a
+              >
+            </div>
+            <div class="col-5">
+              <img
+                data-aos="fade-left"
+                data-aos-duration="2000"
+                src="asset/img/figure home.png"
+                class="img-person"
+                alt=""
+                width="95%"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="menuAbout">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img
+                src="asset/img/figure about.png"
+                data-aos="flip-left"
+                data-aos-duration="1700"
+                alt=""
+                width="100%"
+                class="img-about"
+              />
+            </div>
+            <div class="col-8">
+              <p class="title-about">ABOUT ME</p>
+              <p class="main-desc-about">There Is All</p>
+              <p class="second-desc-about">About Me</p>
+              <div
+                class="general-info"
+                data-aos="fade-up"
+                data-aos-duration="2900"
+              >
+                <div class="row">
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="asset/img/icomoon-free_users.png"
+                          width="50%"
+                          class="icon-name"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-8">
+                        <p class="label-name">Full name</p>
+                        <p class="desc-label-name">Bagus Cahyo Sulistiyo</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="asset/img/icomoon-free_profile.png"
+                          width="50%"
+                          class="icon-age"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-8">
+                        <p class="label-age">Age</p>
+                        <p class="desc-label">21</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-separator">
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="asset/img/clarity_email-outline-badged.png"
+                          width="50%"
+                          class="icon-name"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-8">
+                        <p class="label-name">EMAIL ADDRESS</p>
+                        <p class="desc-label-name">cahyob59@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="asset/img/fa6-regular_address-book.png"
+                          width="50%"
+                          class="icon-age"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-8">
+                        <p class="label-age">Address</p>
+                        <p class="desc-label">
+                          Sawo Bringin Street, Blok: 6, Number: 35
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="menuSkills">
+        <div class="container">
+          <div class="row">
+            <div class="col-8">
+              <p class="title-skills">SKILLS</p>
+              <p class="desc-skills">I specialize in</p>
+              <p class="fav-skills">Back-End Web Development</p>
+              <div
+                class="progress-skills"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <p class="label-progress">HYPERTEXT MARKUP LANGUAGE (HTML)</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 90%"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    90%
+                  </div>
+                </div>
+                <p class="label-progress">CASCADING STYLE SHEETS (CSS)</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 82%"
+                    aria-valuenow="82"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    82%
+                  </div>
+                </div>
+                <p class="label-progress">JAVASCRIPT (JS)</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 65%"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    65%
+                  </div>
+                </div>
+                <p class="label-progress">HYPERTEXT PREPOCESSOR (PHP)</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 83%"
+                    aria-valuenow="83"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    83%
+                  </div>
+                </div>
+                <p class="label-progress">MYSQL</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    80%
+                  </div>
+                </div>
+                <p class="label-progress">LARAVEL</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 85%"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    85%
+                  </div>
+                </div>
+                <p class="label-progress">JQUERY</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 75%"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    75%
+                  </div>
+                </div>
+                <p class="label-progress">PYTHON</p>
+                <div class="progress">
+                  <div
+                    class="progress-bar color-progress"
+                    role="progressbar"
+                    aria-label="Example with label"
+                    style="width: 70%"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    70%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <img
+                src="asset/img/figure skills.png"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+                alt=""
+                width="100%"
+                class="img-skills"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="menuPortfolio">
+        <div class="container">
+          <p class="title-portfolio">Portfolio</p>
+          <p class="desc-portfolio">Website</p>
+          <div class="portfolio-items">
+            <div class="row">
+              <div class="col-6" data-aos="fade-right" data-aos-duration="1500">
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img
+                        src="asset/img/sikat app.png"
+                        alt="Paris"
+                        class="img-items"
+                      />
+                    </div>
+                    <div class="flip-box-back">
+                      <p class="text-items">Sistem Informasi Kampung Digital</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" data-aos="fade-left" data-aos-duration="1500">
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img
+                        src="asset/img/pemilu.jpg"
+                        alt="Paris"
+                        class="img-items"
+                      />
+                    </div>
+                    <div class="flip-box-back">
+                      <p class="text-items">Pemilu Online</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row space-items">
+              <div class="col-6" data-aos="fade-right" data-aos-duration="1500">
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img
+                        src="asset/img/siakadku.jpg"
+                        alt="Paris"
+                        class="img-items"
+                      />
+                    </div>
+                    <div class="flip-box-back">
+                      <p class="text-items">Sistem Informasi Akademik</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6" data-aos="fade-left" data-aos-duration="1500">
+                <div class="flip-box">
+                  <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                      <img
+                        src="asset/img/laundry.jpg"
+                        alt="Paris"
+                        class="img-items"
+                      />
+                    </div>
+                    <div class="flip-box-back">
+                      <p class="text-items">E-Laundry</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experiences" id="menuExperience">
+        <div class="container">
+          <div class="row">
+            <p class="title-ex">Experience</p>
+            <p class="desc-ex">I Have Experience</p>
+            <div class="row row-ex">
+              <div
+                class="col-sm-6"
+                data-aos="fade-down-right"
+                data-aos-duration="1300"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="asset/img/icon ex.png" alt="" />
+                      </div>
+                      <div class="col-9">
+                        <p class="loc-ex">
+                          Universitas Islam Negeri Sunan Ampel Surabaya
+                        </p>
+                        <p class="year-ex">[2018 - 2019]</p>
+                        <p class="pos-ex">Data Processing.</p>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6"
+                data-aos="fade-down-left"
+                data-aos-duration="1300"
+              >
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="asset/img/icon ex.png" alt="" />
+                      </div>
+                      <div class="col-9">
+                        <p class="loc-ex">
+                          Sistem Informasi, Institut Teknologi Telkom Surabaya
+                        </p>
+                        <p class="year-ex">[2021 - Now]</p>
+                        <p class="pos-ex">Web Development.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="menuEducation">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p class="title-edu">My Qualification</p>
+              <p class="desc-edu">Education</p>
+              <div class="step-edu">
+                <ul class="vertical-point-progress">
+                  <li class="school">
+                    SMK Negeri 1 Surabaya . [2017 - 2020]
+                    <p
+                      class="desc-school"
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                    >
+                      Software Engineering
+                    </p>
+                  </li>
+                  <li class="school">
+                    Dicoding Indonesia . [July - August 2019]
+                    <p
+                      class="desc-school"
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                    >
+                      Website Programming
+                    </p>
+                  </li>
+                  <li class="school">
+                    Institut Teknologi Telkom Surabaya . [2020 - now]
+                    <p
+                      class="desc-school"
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                    >
+                      Information Systems
+                    </p>
+                  </li>
+                  <li class="school">
+                    Dicoding Indonesia . [February 2022]
+                    <p
+                      class="desc-school"
+                      data-aos="fade-up"
+                      data-aos-duration="1800"
+                    >
+                      Java Programming
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6">
+              <img
+                src="asset/img/figure-edu.png"
+                data-aos="flip-down"
+                data-aos-duration="1700"
+                class="img-edu"
+                alt=""
+                width="65%"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <p class="brand-project">Bio.</p>
+              <p class="second-brand">Thank You for Visiting</p>
+              <div class="icon-sosmed">
+                <a
+                  href="https://web.facebook.com/bagus.cahyo.5872/"
+                  target="_blank"
+                >
+                  <img src="asset/img/facebook.png" alt="" />
+                </a>
+                <a href="https://twitter.com/baguschys  " target="_blank">
+                  <img src="asset/img/twitter.png" alt="" />
+                </a>
+                <a href="https://www.instagram.com/bgschys/" target="_blank">
+                  <img src="asset/img/instagram.png" alt="" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/baguschys/"
+                  target="_blank"
+                >
+                  <img src="asset/img/linkedin.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-8">
+              <p class="main-content-footer">
+                I am a web developer, I am proficient in
+              </p>
+              <p class="second-content-footer">with laravel framework</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
